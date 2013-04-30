@@ -537,11 +537,11 @@ formulário de login acesse
     **1. Crie as rotas corretas**
 
     Primeiro, tenha certeza que definiu as rotas ``/login`` e ``/login_check``
-    corretamente e que elas correspondem aos calores das configurações
+    corretamente e que elas correspondem aos valores das configurações
     ``login_path`` e ``check_path``. A configuração errada pode significar que
     você será redirecionado para a página de erro 404 ao invés da página
-    de login ou a submissão do formulário de login não faça nada (você
-    sempre vê o formulário sem sair dele).
+    de login, ou a submissão do formulário de login não fará nada (você
+    sempre verá o formulário sem sair dele).
 
     **2. Tenha certeza que a página de login não é protegida**
 
