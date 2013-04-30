@@ -674,6 +674,11 @@ A maneira mais básica de proteger seu aplicativo é proteger um padrão de URL.
 Você já viu no primeiro exemplo deste capítulo que qualquer requisição que
 se encaixasse na expressão regular ``^/admin`` exigiria o perfil ``ROLE_ADMIN``.
 
+.. caution::
+    Compreender exatamente como access_control funciona é muito importante para garantir 
+    que suas requisições sejam devidamente protegidas. 
+    Veja :doc:`/book/security.html#security-book-access-control-explanation` abaixo para obter informações detalhadas.
+
 Você pode definir quantos padrões precisar. Cada um é uma expressão regular.
 
 .. configuration-block::
